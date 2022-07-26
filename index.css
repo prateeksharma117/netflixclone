@@ -1,0 +1,365 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    z-index: 10;
+}
+.navbar-netflix
+{
+    width: 125px;
+    height: 100%;
+}
+.navbar-nav-items
+{
+    display: flex;
+    gap: 10px;
+}
+.logo
+{
+    width: 100%;
+    height: 100%;
+}
+.language-drop-down
+{
+    background: transparent;
+    border: none;
+    color: white;
+}
+.dropdown-container
+{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0,0.4);
+}
+.signin-button
+{
+    border: #dc030f;
+    background-color:#dc030f;
+    color: white;
+    padding: .25rem 0.5rem;
+    border-radius: 4px;
+    height: 32px;
+    width: 80px;
+}
+.hero-bg-image-container
+{
+    width: 100%;
+    height: 100%;
+}
+.hero-bg-image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-bg-overlay
+{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 120%;
+    background: rgba(0, 0,0,0.7);
+}
+.hero-card
+{
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero-title
+{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.hero-subtitle
+{
+    position: relative;
+    top: .7rem;
+    font-weight:400 ;
+    font-size: 1.8rem;
+}
+.hero-discription
+{
+    position: relative;
+    top: 1.5rem;
+    font-weight:400 ;
+    font-size: 1rem;
+}
+.email
+{
+    position: relative;
+    top: 1.5rem;
+    width: 500px;
+    height: 60px;
+    color: black;
+    padding: 0.25rem .5rem;
+    border-radius:3px ;
+    border-color: white;
+}
+.get-started 
+{
+    position: relative;
+    top: 1.8rem;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    background-color: #dc030f;
+    border: #dc030f;
+}
+.get-started a
+{
+    text-decoration: none;
+    color: white;
+}
+hr
+{
+    position: relative;
+    bottom: 3px;
+    height: .5rem;
+    background-color: rgba(128,128,128,0.3);
+    border: none;
+}
+.card-1,.card-2,.card-3,.card-4
+{
+    padding: 50px;
+}
+.card-1
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.dec-1
+{
+    padding-left:80px ;
+}
+.card-1 video
+{
+    position: relative;
+    left:3rem;
+    width: 120%;
+    height: 60%;
+    grid-column: 2/2;
+    grid-row: 1  /2;
+    z-index: -1;
+}
+.card-1 img
+{
+    position: relative;
+    left:3rem;
+    width: 120%;
+    grid-column:2/2 ;
+    grid-row: 1/2;
+}
+.style-card h1
+{
+    font-size:3rem ;
+    padding: 3rem;
+    padding-left: 0;
+}
+.style-card h3
+{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+.card-2
+{
+    height: 30rem;
+}
+.dec-2  h1
+{
+    position: relative;
+    left: 37rem;
+    bottom: 25rem;
+}
+.dec-2 h3
+{
+    position: relative;
+    left: 37rem;
+    bottom:25rem ;
+}
+.dec-2 img
+{
+    position: relative;
+    bottom: 3rem;
+    width:34rem;
+}
+.card-3
+{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.dec-3
+{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+.card-3 video
+{
+    position: relative;
+    top: -87px;
+    left: 125px;
+    width: 65%;
+    height: 78%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+.card-3 img
+{
+    width: 110%;
+    grid-column:2/2 ;
+    grid-row: 1/2;
+}
+.footer{
+    overflow: hidden;
+    height: 19rem;
+}
+footer p
+{
+    position: relative;
+    top: 3rem;
+    left: 15rem;
+    color: gray;
+}
+footer ul li 
+{
+    padding-top: .7rem;
+}
+.footer-1 li a
+{
+    font-size: .7rem;
+    position: relative;
+    top: 4rem;
+    left: 15rem;
+    text-decoration: none;
+    color: gray;
+}
+.footer-1 li a:hover
+{
+    border-bottom: 1px solid gray;
+}
+.footer-2 li a
+{
+    font-size: .7rem;
+    position: relative;
+    bottom: 3.5rem;
+    left: 28rem;
+    text-decoration: none;
+    color: gray;
+}
+.footer-2 li a:hover
+{
+    border-bottom: 1px solid gray;
+}
+.footer-3 li a
+{
+    font-size: .7rem;
+    position: relative;
+    bottom: 10.5rem;
+    left: 40rem;
+    text-decoration: none;
+    color: gray;
+}
+.footer-3 li a:hover
+{
+    border-bottom: 1px solid gray;
+}
+.footer-4 li a
+{
+    font-size: .7rem;
+    position: relative;
+    bottom: 18rem;
+    left: 53rem;
+    text-decoration: none;
+    color: gray;
+}
+.footer-4 li a:hover
+{
+    border-bottom: 1px solid gray;
+}
+
+.card-4
+{
+    height: 30rem;
+}
+.dec-4  h1
+{
+    position: relative;
+    left: 37rem;
+    bottom: 25rem;
+}
+.dec-4 h3
+{
+    position: relative;
+    left: 37rem;
+    bottom:25rem ;
+}
+.dec-4 img
+{
+    position: relative;
+    bottom: 3rem;
+    width:34rem;
+}
+.end
+{
+    position: relative;
+    left: 15rem;
+    bottom: 4rem;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 0.3rem;
+    width: 7.5rem;
+    
+}
+.option
+{
+    width: 5.2rem;
+    height: 2rem;
+    background: transparent;
+    color: white;
+    border: none;
+}
+option
+{
+    background-color: gray;
+}
+.complete-p p
+{
+    position: relative;
+    left: 15rem;
+    bottom: 3rem;
+    color: gray;
+    font-size: 11px;
+}
